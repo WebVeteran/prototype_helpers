@@ -16,12 +16,14 @@
 <body>
   <input type="text" id="foo" name="foo" value="Enter something!"/>
   <input type="text" id="bar" name="bar" value="Or something else!"/>
+  <input type="password" id="pw" name="pw" value="Enter a password..."/><br />
   <textarea id="baz" name="baz">Replace this text with something else</textarea>
   
   
   <script type="text/javascript" charset="utf-8">
     $('foo').defaultValueActsAsHint();
     $('bar').defaultValueActsAsHint();
+    $('pw').defaultValueActsAsHint();
     $('baz').defaultValueActsAsHint();
   </script>
 </body>
